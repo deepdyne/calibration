@@ -6,7 +6,7 @@ command which i've used is below
 ```
 $ lsusb # whether web cam is recognized             
 $ ls /dev/video* # to check device no of camera
-$ dmesg | grep uvcvideo # to confirm if moddule has recognize or not
+$ dmesg | grep uvcvideo # to confirm if moddule has recognized or not
 [110537.967704] uvcvideo: Found UVC 1.00 device HD Webcam C525 (046d:0826)
 [110538.253373] uvcvideo 1-1:1.2: Entity type for entity Extension 5 was not initialized!
 [110538.253380] uvcvideo 1-1:1.2: Entity type for entity Processing 2 was not initialized!
