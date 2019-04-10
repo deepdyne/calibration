@@ -14,6 +14,6 @@ for row in f:
     p_matrix.append("0.000000000000000000e+00")
 
 text_file = open("calib_cam_to_cam.txt", "w") # NOTE: name and format are compliant with KITTI dataset
-text_file.write("P_rect_02: %s" % " ".join(p_matrix))
+text_file.write("P_rect_02:%s" % " ".join(p_matrix))
 text_file.close()
 
