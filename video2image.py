@@ -8,7 +8,7 @@ path = 'frames'
 success = True
 
 while success:
-  cv2.imwrite(os.path.join(path, "%d.png" % count), image)
+  cv2.imwrite(os.path.join(path, "%s.png" % str(count).zfill(8)), image)
   success,image = vidcap.read()
   print('Read a new frame: ', success)
   count += 1
