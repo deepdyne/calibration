@@ -25,6 +25,11 @@ $ dmesg | grep uvcvideo # to confirm if moddule has recognized or not
 - src of script
   - https://qiita.com/a2kiti/items/38171e6842b6332bba7b
 
+# Steps
 
-
+1. prepare USB cam
+2. take calibration by using chessboard (see reference)
+3. convert video to sequential image frames
+4. convert mtx.csv (intrinsic matrix) to calib_cam_to_cam.txt (camera matrix) 
+ 
 
