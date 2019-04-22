@@ -6,7 +6,7 @@ success,image = vidcap.read()
 count = 0
 path = 'frames'
 success = True
-fps = 30
+fps = 300
 
 while success:
   print(count)
